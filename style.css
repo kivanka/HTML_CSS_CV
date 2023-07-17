@@ -23,3 +23,129 @@ body {
     object-fit: cover;
     margin-right: 30px;
   }
+  .student {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 5px;
+  }
+
+  main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .left-block {
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  .right-block {
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  nav,
+  section {
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    position: relative;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+
+  h2::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 50px;
+    height: 2px;
+    background-color: #333;
+  }
+
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+
+  ul.contacts {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  ul.contacts li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  ul.contacts li img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+
+  ul.contacts li a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  section.skills,
+  section.education,
+  section.languages {
+    margin-bottom: 40px;
+  }
+
+  section.skills ul,
+  section.education ul,
+  section.languages ol {
+    padding-left: 0;
+    margin-top: 10px;
+  }
+
+  section.skills ul li,
+  section.education ul li,
+  section.languages ol li {
+    margin-bottom: 5px;
+  }
+
+  section.brief {
+    margin-bottom: 40px;
+  }
+
+  section.brief p {
+    line-height: 1.5;
+  }
+
+  section.code pre {
+    background-color: #f1f1f1;
+    padding: 10px;
+    white-space: pre-wrap;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+
+  section.code pre code {
+    font-family: Consolas, monospace;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  footer a.git-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
